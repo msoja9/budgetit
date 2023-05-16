@@ -1,7 +1,7 @@
 {
   "name": "budgetit",
   "version": "0.1.0",
-  "homepage": "msoja9.github.io",
+  "homepage": "https://msoja9.github.io/budgetit",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
