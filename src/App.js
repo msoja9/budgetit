@@ -6,6 +6,8 @@ import { AddExpenseButton } from './Components/AddExpenseButton';
 import { Totals } from './Components/Totals';
 import { Savings } from './Components/Savings';
 import Image from './Blogo.png'
+import React from 'react';
+
 
 
 function clearAccountInput(e) {
