@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/budgetit/static/css/main.1f66feb7.css",
+    "main.js": "/budgetit/static/js/main.6e4fb7a8.js",
+    "static/js/787.4a2b9355.chunk.js": "/budgetit/static/js/787.4a2b9355.chunk.js",
+    "static/media/BDesign3.png": "/budgetit/static/media/BDesign3.8715d64f3587adfe981d.png",
+    "static/media/Blogo.png": "/budgetit/static/media/Blogo.3d7ba074b708480ff918.png",
+    "index.html": "/budgetit/index.html",
+    "main.1f66feb7.css.map": "/budgetit/static/css/main.1f66feb7.css.map",
+    "main.6e4fb7a8.js.map": "/budgetit/static/js/main.6e4fb7a8.js.map",
+    "787.4a2b9355.chunk.js.map": "/budgetit/static/js/787.4a2b9355.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f66feb7.css",
+    "static/js/main.6e4fb7a8.js"
+  ]
+}
