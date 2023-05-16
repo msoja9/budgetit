@@ -1,0 +1,425 @@
+
+@import url('https://fonts.googleapis.com/css?family=League Gothic');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+
+body {
+  font-family: 'Montserrat';
+  font-weight: 800;
+}
+.App {
+  text-align: center;
+  color: #aae3b6;
+  height: fit-content;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #aae3b6;
+  background-image: url("BDesign3.png");
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.App-body {
+  /* background-color: #64de8f; */
+  min-height: 18vh;
+  min-width: 90vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 5vh;
+  border-radius: 15%;
+  justify-content: center;
+  color: white;
+}
+
+.App-calc {
+  /* background-color: #64de8f; */
+  min-height: 65vh;
+  min-width: 65vw;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  position: absolute;
+  top: 25vh;
+  border-radius: 15%;
+  justify-content: center;
+  color: white;
+  justify-content: flex-start;
+}
+
+.Header-text {
+  font-size: 9vw;
+  color: #2C341F;
+  font-weight: bold;
+  font-family: 'League Gothic';
+  text-transform: uppercase;
+  letter-spacing: .5vw;
+  
+}
+
+.Header-text-half {
+  font-size: 9vw;
+  color: #43AB36;
+  font-weight: bold;
+  font-family: 'League Gothic';
+  text-transform: uppercase;
+  letter-spacing: .5vw;
+
+}
+
+.Header-text-dash {
+  font-size: 9vw;
+  color: #E84C4C;
+  font-weight: bold;
+  font-family: 'League Gothic';
+  text-transform: uppercase;
+  letter-spacing: .5vw;
+
+}
+
+.App-link {
+  color: #e8faec;
+}
+
+.headRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Timeframe {
+  all: unset;
+  position: inherit;
+  color:  #2C341F;
+  top: 2vh;
+  right: 3.2vh;
+  font-size: calc(.6vh + 1.2vmin);
+  background-color: #9B9B9A;
+  padding: .8vh;
+  border-radius: 2vh;
+  border-color: 57665a;
+}
+
+.Current-account {
+  all: unset;
+  position: inherit;
+  color:  #2C341F;
+  top: 2vh;
+  left: 2vh;
+  font-size: calc(.4vh + 1.2vmin);
+  background-color: #ECECEC;
+  padding: .9vh;
+  border-radius: 2vh;
+  border-color: 57665a;
+  display: flex;
+  align-items: center;
+}
+
+button:active {
+  transform: translate(1px, 1px);
+  box-shadow: none;
+}
+
+.Month-year {
+  justify-content: space-around;
+  font-size: calc(1.3vh + 2vmin);
+  padding: .9vh;
+  border-radius: 2vh;
+  font-weight: bold;
+  color: #2C341F;
+}
+
+.Income-body {
+  background-color: white;
+  width: 70vw;
+  display: flex;
+  position: inherit;
+  flex-direction: column;
+  align-items: top;
+  top: 8vh;
+  align-self: center;
+  border-radius: 2vh;
+  justify-content: center;
+  color: black;
+  margin-top: .6vh;
+  margin-bottom: .6vh;
+  margin-left: .5vh;
+  margin-right: .5vh;
+  padding: .5vh;
+  border: .4vh solid #585858;
+
+}
+
+.Income-form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2vh;
+  justify-content: left;
+  color: black;
+  padding-left: 6%;
+  padding-top: 1%;
+  align-items: baseline;
+}
+
+.Income-formMinus {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2vh;
+  justify-content: left;
+  color: black;
+  padding-top: .4vh;
+  padding-bottom: .4vh;
+  align-items: baseline;
+  font-size: 3vh;
+}
+
+.li {
+  list-style-type: none;
+}
+
+.ol {
+  list-style-type: none;
+}
+
+.ulList {
+  list-style-type: none;
+  padding-left: 5.5px;
+  position: relative;
+  display: flex;
+  padding-top: 0.4vh;
+  padding-bottom: 0.4vh;
+  align-items: center;
+  font-size: 3vh;
+}
+
+.ulListkey {
+  list-style-type: none;
+  padding: 0px;
+  position: relative;
+  left: 5px;
+  display: flex;
+}
+
+
+.Income-box {
+  position: relative;
+  display: flex;
+  padding-left: 3vh;
+  color: #1fc23f;
+  font-weight: bold;
+  font-size: calc(.8vh + 2vmin);
+}
+
+.Savings-box {
+  position: relative;
+  display: flex;
+  padding-left: 3vh;
+  color: #2C341F;
+  font-weight: bold;
+  font-size: calc(.8vh + 2vmin);
+}
+
+.Totals-box {
+  position: relative;
+  display: flex;
+  padding-left: 3vh;
+  color: #2C341F;
+  font-weight: bold;
+  font-size: calc(.8vh + 2vmin);
+  text-shadow: .5px .5px #43AB36;
+}
+
+.Income-button {
+  margin-right: .3vh;
+  background-color: white;
+  border: 1px solid #2C341F;
+  border-radius: .3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 3vh;
+  width: 3vh;
+}
+
+
+.Income-buttonMinus {
+  margin-right: .3vh;
+  border: 1px solid #2C341F;
+  border-radius: .3vh;
+  background-color: white;
+  margin-left: .05vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 3vh;
+  width: 3vh;
+}
+
+.Income-item {
+  margin-right: 4px;
+  border: none;
+  border-radius: 3px;
+  border-width: 0px;
+  border-style: groove;
+  background-color: #5ACD81;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  width: 25vw;
+  font-size: calc(1vh + 1.5vmin);
+}
+
+.Expense-item {
+  margin-right: 4px;
+  border: none;
+  border-radius: 3px;
+  border-width: 0px;
+  border-style: groove;
+  background-color: #F7B1AF;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  width: 25vw;
+  font-size: calc(1vh + 1.5vmin);
+}
+
+.Savings-item {
+  margin-right: 4px;
+  border: none;
+  border-radius: 3px;
+  border-width: 0px;
+  border-style: groove;
+  background-color: #5ACD81;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  width: 25vw;
+  font-size: calc(1vh + 1.5vmin);
+}
+
+.Income-amount {
+  margin-right: 4px;
+  border: none;
+  border-radius: 3px;
+  border-width: 0px;
+  border-style: groove;
+  background-color: #5ACD81;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  width: 25vw;
+  font-size: calc(1vh + 1.5vmin);
+}
+
+.Expense-amount {
+  margin-right: 4px;
+  border: none;
+  border-radius: 3px;
+  border-width: 0px;
+  border-style: groove;
+  background-color: #F7B1AF;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  width: 25vw;
+  font-size: calc(1vh + 1.5vmin);
+}
+
+.Savings-amount {
+  margin-right: 4px;
+  border: none;
+  border-radius: 3px;
+  border-width: 0px;
+  border-style: groove;
+  background-color: #5ACD81;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  width: 25vw;
+  font-size: calc(1vh + 1.5vmin);
+}
+
+.Account-amount {
+  margin-right: 4px;
+  border: none;
+  border-radius: 3px;
+  border-width: 0px;
+  border-style: groove;
+  background-color: #5ACD81;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  width: 9vh;
+  height: 2vh;
+  font-size: calc(.4vh + 1.5vmin);
+}
+
+.Expense-box {
+  position: relative;
+  display: flex;
+  padding-left: 3vh;
+  color: #de122d;
+  font-weight: bold;
+  font-size: calc(.8vh + 2vmin);
+}
+
+.Money-total {
+  position: relative;
+  display: flex;
+  padding-left: 3vh;
+  color: black;
+  font-size: calc(1vh + 1.5vmin);
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.Money-total.red {
+  color: #de122d;
+  position: relative;
+  display: flex;
+  padding-left: 3vh;
+  color: black;
+  font-size: calc(1vh + 1.5vmin);
+}
+
+.Savings-total {
+  position: relative;
+  display: flex;
+  color: black;
+  font-size: calc(1vh + 1.5vmin);
+  padding-left: 10%;
+}
+
+.logo {
+  height: 7vw;
+  width: 7vw;
+  position: relative;
+  display: block;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
