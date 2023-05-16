@@ -1,4 +1,7 @@
+import React from 'react';
+
 export function MonthlyButton({ monthly, set, incomeArray, expenseArray, savingsArray, setIncome, setExpenses, setSavings}) {
+  
   
   function total(array, setObject) {
     var object = 0;
